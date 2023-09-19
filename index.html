@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Club Viejuner</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>El Club Viejuner</h1>
+    <h2>Formulario de admisión</h2>
+    <form>
+      <fieldset>
+        <h3>Tú:</h3>
+        <label for="first-name"
+          >Nombre:
+          <input
+            id="first-name"
+            name="first-name"
+            type="text"
+            autofocus
+            required
+            tabindex="1"
+            placeholder="Juan"
+        /></label>
+        <label for="surname"
+          >Apellidos
+          <input
+            id="surname"
+            name="surname"
+            type="text"
+            required
+            tabindex="2"
+            placeholder="Wick"
+        /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Género:</legend>
+        <label for="genre-masc">
+          <input
+            id="genre-masc"
+            type="radio"
+            name="genre-masc"
+            class="inline"
+          />Masculino</label
+        >
+        <label for="genre-fem">
+          <input
+            id="genre-fem"
+            type="radio"
+            name="genre-fem"
+            class="inline"
+          />Femenino</label
+        >
+        <label for="genre-enby">
+          <input
+            id="genre-enby"
+            type="radio"
+            name="genre-enby"
+            class="inline"
+            tabindex="2"
+          />No binario</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <label for="viejuner">
+          <input
+            id="viejuner"
+            type="checkbox"
+            required
+            name="viejuner"
+            class="inline"
+          />Me siento viejuner
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="bio"
+          >Escribe algo sobre tí:
+          <textarea
+            id="bio"
+            name="bio"
+            placeholder="Me siento viejuner porque..."
+          ></textarea>
+        </label>
+      </fieldset>
+
+      <h3>Tus circunstancias:</h3>
+      <label for="email"
+        >Correo electrónico
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="juanitowick@email.com"
+          required
+        />
+      </label>
+      <label for="phone"
+        >Correo electrónico
+        <input
+          id="phone"
+          type="phone"
+          name="phone"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          placeholder="123-456-789"
+          required
+        />
+      </label>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Restablecer" />
+      <p class="form-link">
+        <a href="./pages/second-form.html" class="form-link">Formulario robo</a>
+      </p>
+    </form>
+  </body>
+</html>

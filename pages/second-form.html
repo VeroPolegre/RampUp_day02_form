@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Los ladronzuelos</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <h2>Los ladronzuelos de bicicletas</h2>
+    <form>
+      <fieldset>
+        <label for="day"
+          >Día: <input id="day" name="day" type="date" required
+        /></label>
+        <label for="hour"
+          >Hora: <input id="hour" name="hour" type="time" required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for="bicycle"
+          >Color de la bicicleta:
+          <input id="bicycle" name="bicycle" type="color" required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for="bycicle-price"
+          >Rango de precio:
+          <input
+            id="bycicle-price"
+            type="range"
+            name="bycicle-price"
+            min="0"
+            max="3000"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for="bicycle-type"
+          >Tipo de bicicleta:
+          <select id="bicycle-type" name="bicycle-type">
+            <option value="">(selecciona)</option>
+            <option value="1">Señorial</option>
+            <option value="2">Anti-plebeyos</option>
+            <option value="3">PorEncimaDelHombro</option>
+          </select>
+        </label>
+      </fieldset>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Restablecer" />
+    </form>
+    <p class="form-link"><a href="../index.html">Formulario viejuners</a></p>
+  </body>
+</html>
