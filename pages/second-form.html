@@ -25,13 +25,14 @@
       </fieldset>
       <fieldset>
         <label for="bycicle-price"
-          >Rango de precio:
+          >Rango de precio (10€ - 100€ - 1000€):
           <input
             id="bycicle-price"
             type="range"
             name="bycicle-price"
             min="0"
-            max="3000"
+            max="3"
+            step="1"
         /></label>
       </fieldset>
       <fieldset>
@@ -39,18 +40,34 @@
           >Tipo de bicicleta:
           <select id="bicycle-type" name="bicycle-type">
             <option value="">(selecciona)</option>
-            <option value="Señorial">Señorial</option>
-            <option value="Anti-plebeyos">Anti-plebeyos</option>
-            <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+            <optgroup label="Paseo">
+              <option value="Señorial">Señorial</option>
+              <option value="Anti-plebeyos">Anti-plebeyos</option>
+              <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+            </optgroup>
+            <optgroup label="Montaña">
+              <option value="Gamusinos">Gamusinos</option>
+              <option value="Hueleflores-premium">Hueleflores premium</option>
+              <option value="Fango-lover">Fango lover</option>
+            </optgroup>
+            <optgroup label="Carreras">
+              <option value="Metroymedio">Metroymedio</option>
+              <option value="Fluorescente-edition">
+                3 de la tarde. Fluorescente edition
+              </option>
+              <option value="Grupitors">Grupitors</option>
+            </optgroup>
           </select></label
         >
         <label for="bicycle-type"
           >Accesorios:
           <select id="bicycle-accesories" name="bicycle-accesories" multiple>
-            <option value="">(selecciona)</option>
             <option value="Ruedines">Ruedines</option>
             <option value="Pegatinas">Pegatinas</option>
             <option value="Cestita">Cestita</option>
+            <option value="Cestita">Bomba de aire</option>
+            <option value="Cestita">Timbre</option>
+            <option value="Cestita">Foco</option>
           </select>
         </label>
         <label for="bicycle-brand"
@@ -59,7 +76,10 @@
             <option value="">(selecciona)</option>
             <option value="specialized">specialized</option>
             <option value="trek">trek</option>
-            <option value="merida">merida</option>
+            <option value="scott">scott</option>
+            <option value="giant">giant</option>
+            <option value="cube">cube</option>
+            <option value="lapierre">lapierre</option>
           </select></label
         >
       </fieldset>
