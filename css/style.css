@@ -75,7 +75,7 @@ textarea {
 input[type="submit"] {
   display: block;
   width: 60%;
-  margin: 1em auto;
+  margin: 2em auto;
   height: 2em;
   font-size: 1.1rem;
   background-color: #5f5f86;
@@ -86,7 +86,7 @@ input[type="submit"] {
 input[type="reset"] {
   display: block;
   width: 60%;
-  margin: 1em auto;
+  margin: auto;
   height: 2em;
   font-size: 1.1rem;
   background-color: #3b3b4f;
