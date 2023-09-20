@@ -55,7 +55,8 @@ select {
 }
 
 input,
-textarea {
+textarea,
+.form-link {
   background-color: #22242b;
   border: 1px solid #0a0a23;
   color: #ffffff;
@@ -69,7 +70,7 @@ textarea {
 
 .form-link {
   text-align: center;
-  color: #f776fe;
+  color: #fafafa;
 }
 
 input[type="submit"] {
