@@ -1,6 +1,6 @@
 # RampUp Day02 Exercise: Forms
 
-In this exercise, the objective was 2 forms making use of autofocus, tabindex, reset, submit, fieldset and legend elements.
+In this exercise, the objective was creating 2 forms making use of autofocus, tabindex, reset, submit, fieldset and legend elements.
 
 ### Languages used:
 
